@@ -5,6 +5,7 @@ import HomePage from './HomePage';
 import BlogPage from './Blogpage';
 import LoginPage from './LoginPage';
 import AboutPage from './AboutPage';
+import ContactPage from './ContactPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/blogs/:slug" element={<BlogPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />
