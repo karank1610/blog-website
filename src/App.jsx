@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './HomePage';
 import BlogPage from './Blogpage';
+import LoginPage from './LoginPage';
+import AboutPage from './AboutPage';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/blogs" element={<BlogPage />} />
             <Route path="/blogs/:slug" element={<BlogPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/about" element={<AboutPage />} />
           </Routes>
         </main>
         <Footer />
